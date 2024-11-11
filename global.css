@@ -1,0 +1,100 @@
+/*Section*/
+
+body{
+    margin: none;
+    background-color: #1F1F1F;
+    overflow-x: hidden;
+}
+
+section{
+    background-color:#252525;
+    height: 1037px;
+}
+
+/*Elements*/
+
+p{
+    color:white;
+    font-size: 22px;
+}
+
+/*ID*/
+
+#navbar{
+    float: right;
+    color: white;
+    margin-top:50px;
+}
+#navbar > a{
+    margin:40px;
+    font-size:24px;
+    text-underline-offset:10px;
+    font-weight:600;
+}
+#navbar > a:hover{
+    cursor:pointer;
+
+}
+
+#banner{
+    height:137px;
+}
+
+#shapes{
+    z-index:-1;
+    float:right;
+    margin-top:20px;
+    margin-right:30px;
+    position:relative;
+}
+
+#headingtext{
+    font-size: 64px;
+    position:static;
+    margin: 40px;
+    margin-top: 100px;
+    font-weight: 800;
+    margin-left:10%;
+}
+
+/*Classes*/
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.box{
+    background-color: #303030;
+    border: 3px solid #0cead9;
+    border-radius:20px;
+    width:80%;
+    padding:30px;
+}
+
+.Arvo{
+    font-family: "Arvo", serif;
+    font-style: normal;
+}
+
+.Roboto{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.Bold{
+    font-weight:700
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 480px) {
+    #navbar{
+        display:none;
+    }
+    #banner{
+        height: 90px;
+    }
+  }
