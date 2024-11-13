@@ -5,6 +5,9 @@ body{
     background-color: #1F1F1F;
     overflow-x: hidden;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 
 section{
     background-color:#252525;
