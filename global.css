@@ -21,6 +21,10 @@ section{
     padding:30px;
 }
 
+header{
+    height:640px;
+}
+
 /*Elements*/
 
 p{
@@ -61,13 +65,14 @@ a:hover{
 #shapes{
     z-index:-1;
     float:right;
+    height:5vh;
     margin-top:20px;
     margin-right:30px;
     position:relative;
 }
 
 #headingtext{
-    font-size: 64px;
+    font-size: 4.5vw;
     position:static;
     margin: 40px;
     margin-top: 100px;
