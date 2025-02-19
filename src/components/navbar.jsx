@@ -9,9 +9,9 @@ function Navbar() {
                            id="banner"/>
 
                     <nav id="navbar" className="Arvo" aria-label="Primary Navigation">
-                            <a onClick={home} style={{ textDecoration: 'underline' }}>Home</a>
-                            <a onClick={getintouch} style={{ textDecoration: 'none' }}>Get In Touch</a>
-                            <a onClick={portfolio} style={{ textDecoration: 'none' }}>Portfolio</a>
+                            <a id='homebutton' onClick={home} className="underline">Home</a>
+                            <a id='getintouchbutton' onClick={getintouch} className="nostyle">Get In Touch</a>
+                            <a id='portfoliobutton' onClick={portfolio} className="nostyle">Portfolio</a>
                     </nav>
                 </div>
                 <div className="fcontainer">

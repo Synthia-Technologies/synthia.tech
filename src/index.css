@@ -160,6 +160,12 @@ li{
   float:right;
   margin:10px;
 }
+.underline{
+  text-decoration: underline;
+}
+.nostyle{
+  text-decoration: none;
+}
 
 /*getintouch.html styling*/
 

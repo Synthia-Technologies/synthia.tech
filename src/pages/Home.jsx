@@ -4,6 +4,9 @@ import Foot from "../components/footer.jsx";
 
 
 function Home() {
+
+    document.getElementById('headingtext').InnerHTML = "Expert websites, so you can focus on growth."
+
     return (
         <>
             <header>

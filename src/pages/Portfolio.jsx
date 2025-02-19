@@ -1,8 +1,14 @@
+import Navbar from "../components/navbar.jsx";
 
 function Portfolio() {
+
+    document.getElementById('headingtext').InnerHTML = "Past Projects I have had the pleasure of working on."
+
     return(
         <>
-            <h1>Portfolio</h1>
+            <header>
+                <Navbar style={{width: '100%'}}/>
+            </header>
         </>
     )
 }

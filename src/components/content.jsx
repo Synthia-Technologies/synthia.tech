@@ -37,4 +37,4 @@ function Homecont() {
     )
 }
 
-export default Homecont
+export default Homecont;
