@@ -1,9 +1,9 @@
 export function home(){
-    window.location.replace("https://www.synthia.tech")
+    window.location.replace("")
 }
 export function getintouch(){
-    window.location.replace("https://www.synthia.tech/getintouch")
+    window.location.replace("/#/getintouch")
 }
 export function portfolio(){
-    window.location.replace("https://www.synthia.tech/portfolio")
+    window.location.replace("/#/portfolio")
 }

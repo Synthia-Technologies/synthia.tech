@@ -1,5 +1,5 @@
-import './index.css'
-import { home, getintouch, portfolio } from './nav.js'
+
+import { home, getintouch, portfolio } from '../nav.js'
 
 function Foot() {
 

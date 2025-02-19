@@ -1,5 +1,4 @@
-import './index.css'
-import { home, getintouch, portfolio } from './nav.js'
+import { home, getintouch, portfolio } from '../nav.js'
 
 function Navbar() {
 
@@ -10,9 +9,9 @@ function Navbar() {
                            id="banner"/>
 
                     <nav id="navbar" className="Arvo" aria-label="Primary Navigation">
-                        <a onClick={home} style={{ textDecoration: 'underline' }}>Home</a>
-                        <a onClick={getintouch} style={{ textDecoration: 'none' }}>Get In Touch</a>
-                        <a onClick={portfolio} style={{ textDecoration: 'none' }}>Portfolio</a>
+                            <a onClick={home} style={{ textDecoration: 'underline' }}>Home</a>
+                            <a onClick={getintouch} style={{ textDecoration: 'none' }}>Get In Touch</a>
+                            <a onClick={portfolio} style={{ textDecoration: 'none' }}>Portfolio</a>
                     </nav>
                 </div>
                 <div className="fcontainer">
