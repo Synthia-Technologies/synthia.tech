@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import Navbar from "../components/navbar.jsx";
-import Homecont from "../components/content.jsx";
+import Homecont from "../components/content/Getintouchcont.jsx.jsx";
 import Foot from "../components/footer.jsx";
+import Getintouchcont from "../components/content/Getintouchcont.jsx";
 
 function Getintouch() {
 
@@ -18,6 +19,10 @@ function Getintouch() {
             <header>
                 <Navbar style={{width: '100%'}}/>
             </header>
+
+            <section>
+                <Getintouchcont />
+            </section>
         </>
     )
 }
