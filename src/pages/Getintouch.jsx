@@ -1,10 +1,17 @@
+import { useEffect } from "react";
 import Navbar from "../components/navbar.jsx";
 import Homecont from "../components/content.jsx";
 import Foot from "../components/footer.jsx";
 
 function Getintouch() {
 
-    document.getElementById('headingtext').InnerHTML = "Find a Plan perfectly tailored to your needs."
+    useEffect(() => {
+        document.getElementById('headingtext').innerHTML = "Find a Plan perfectly tailored to your needs."
+
+        document.getElementById('homebutton').style.textDecoration = "none";
+        document.getElementById('getintouchbutton').style.textDecoration = "underline";
+        document.getElementById('portfoliobutton').style.textDecoration = "none";
+    })
 
     return(
         <>

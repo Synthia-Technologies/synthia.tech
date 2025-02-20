@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navbar from "../components/navbar.jsx";
 import Homecont from "../components/content.jsx";
 import Foot from "../components/footer.jsx";
@@ -5,7 +6,13 @@ import Foot from "../components/footer.jsx";
 
 function Home() {
 
-    document.getElementById('headingtext').InnerHTML = "Expert websites, so you can focus on growth."
+    useEffect(() => {
+        document.getElementById('headingtext').innerHTML = "Expert websites, so you can focus on growth."
+
+        document.getElementById('homebutton').style.textDecoration = "underline";
+        document.getElementById('getintouchbutton').style.textDecoration = "none";
+        document.getElementById('portfoliobutton').style.textDecoration = "none";
+    })
 
     return (
         <>

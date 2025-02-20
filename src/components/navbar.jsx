@@ -10,8 +10,8 @@ function Navbar() {
 
                     <nav id="navbar" className="Arvo" aria-label="Primary Navigation">
                             <a id='homebutton' onClick={home} className="underline">Home</a>
-                            <a id='getintouchbutton' onClick={getintouch} className="nostyle">Get In Touch</a>
-                            <a id='portfoliobutton' onClick={portfolio} className="nostyle">Portfolio</a>
+                            <a id='getintouchbutton' onClick={getintouch}>Get In Touch</a>
+                            <a id='portfoliobutton' onClick={portfolio}>Portfolio</a>
                     </nav>
                 </div>
                 <div className="fcontainer">
