@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Navbar from "../components/navbar.jsx";
-import Homecont from "../components/content/content.jsx";
 import Foot from "../components/footer.jsx";
+import Portfoliocont from "../components/content/Portfoliocont.jsx";
 
 function Portfolio() {
 
@@ -18,6 +18,10 @@ function Portfolio() {
             <header>
                 <Navbar style={{width: '100%'}}/>
             </header>
+            <section>
+                <Portfoliocont />
+            </section>
+            <Foot />
         </>
     )
 }

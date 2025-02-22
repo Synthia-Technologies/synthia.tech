@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import Navbar from "../components/navbar.jsx";
-import Homecont from "../components/content/Getintouchcont.jsx.jsx";
 import Foot from "../components/footer.jsx";
 import Getintouchcont from "../components/content/Getintouchcont.jsx";
 
@@ -23,6 +22,10 @@ function Getintouch() {
             <section>
                 <Getintouchcont />
             </section>
+
+            <footer>
+                <Foot />
+            </footer>
         </>
     )
 }

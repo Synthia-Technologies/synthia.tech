@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <>
                 <div>
-                    <input onClick={home} alt="Synthia Technologies" type="image" src="/images/Banner.png"
+                    <input onClick={home} alt="Synthia Technologies" type="image" src="/images/Banner.svg"
                            id="banner"/>
 
                     <nav id="navbar" className="Arvo" aria-label="Primary Navigation">
