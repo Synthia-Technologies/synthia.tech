@@ -26,7 +26,7 @@ function Portfoliocont() {
             </div>
             <br/>
             <div>
-                <div className="pHeader Arvo">
+                <div className="pHeader Arvo center">
                     <p><b>More Portfolio Items Coming Soon</b></p>
                     <hr/>
                     <br/>

@@ -1,0 +1,32 @@
+function GoldCard() {
+
+    return (
+        <>
+            <div className="fcontainer">
+                <div className="plCard gold taLeft center">
+                    <h1 className="Arvo Heading">Gold</h1>
+                    <p className="Roboto">
+                        <ul>
+                            <li>Everything Silver has and...</li>
+                            <li><b>Plus Website Design</b> (up to ten pages)</li>
+                            <li><b>Standard SEO</b></li>
+                            <li><b>Monthly Maintenance</b></li>
+                            <li><b>Social Media Integration</b> (links and feeds)</li>
+                            <li><b>One Major Update Each Year</b></li>
+                            <li><b>Simple On-Site Payment</b></li>
+                        </ul>
+                    </p>
+                    <div className="fcontainer">
+                        <a className="plLearnmore" onClick="goldPopup()">Learn More</a>
+                        <button className="Arvo" onClick="goldPopup()">
+                            <p><b className="num">$75</b><br/>
+                                <b className="pm">Per Month</b></p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default GoldCard;

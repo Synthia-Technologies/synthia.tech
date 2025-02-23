@@ -20,12 +20,10 @@ function Getintouch() {
             </header>
 
             <section>
-                <Getintouchcont />
+                <Getintouchcont/>
             </section>
 
-            <footer>
-                <Foot />
-            </footer>
+            <Foot />
         </>
     )
 }

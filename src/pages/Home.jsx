@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Navbar from "../components/navbar.jsx";
-import Homecont from "../components/content/content.jsx";
+import Homecont from "../components/content/Homecont.jsx";
 import Foot from "../components/footer.jsx";
 
 
