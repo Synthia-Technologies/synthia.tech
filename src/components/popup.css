@@ -1,0 +1,7 @@
+#popup{
+    width:90%;
+    height:500px;
+
+    position: fixed;
+    display:none;
+}

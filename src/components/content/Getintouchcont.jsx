@@ -1,11 +1,17 @@
+import '../popup.css'
+
 import SilverCard from "./plcards/silver.jsx"
 import GoldCard from "./plcards/gold.jsx"
 import DiamondCard from "./plcards/diamond.jsx"
+import popup from "../popup.jsx"
 import React from "react";
 
 function Getintouchcont() {
     return(
         <>
+            <popup id={'popup'} />
+
+
             <div className="pHeader Arvo">
                 <p><b>How Synthia websites work</b></p>
                 <hr/>

@@ -22,7 +22,7 @@ section{
 }
 
 header{
-  height:640px;
+  height:600px;
 }
 
 section{
@@ -78,7 +78,7 @@ li{
   z-index:-1;
   float:right;
   width:100%;
-  margin-top:20px;
+  margin-top:0;
   margin-right:30px;
   position:relative;
 }
@@ -87,7 +87,7 @@ li{
   font-size: 4.5vw;
   position:static;
   font-weight: 800;
-  margin: 100px 40px 40px 10%;
+  margin: 40px 40px 40px 10%;
 }
 
 /*Classes*/
@@ -188,7 +188,7 @@ li{
   position:absolute;
 
   background-color:#D9D9D9;
-  border:0px solid;
+  border:0 solid;
   border-radius: 100px;
   box-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
 }
@@ -216,29 +216,6 @@ li{
 .gold > h1{color:#FFBF3F;}
 .diamond{border-color:#43AAFF;}
 .diamond > h1{color:#43AAFF;}
-
-#popupWindow{
-  width:95%;
-  height:90%;
-
-  position:fixed;
-  display:none;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 3;
-
-
-  backdrop-filter: blur(25px) saturate(200%);
-  -webkit-backdrop-filter: blur(25px) saturate(200%);
-  background-color: rgba(31, 31, 31, 0.70);
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-}
-#popupWindow input[type=image]{
-  position:absolute;
-  width:35px;
-}
 
 .fcontainer{
   display:flex;
@@ -283,7 +260,7 @@ li{
   #shapes{
     position:relative;
     width:130%;
-    margin: 20px 0 0;
+    margin: -10px 0 0;
   }
   #shapes img{
     width:100%;
@@ -293,9 +270,6 @@ li{
   #headingtext{
     font-size: 25px;
     margin: 30px 0 20px 20px;
-  }
-  #popupWindow{
-    width:85%
   }
 
   .fcontainer{
