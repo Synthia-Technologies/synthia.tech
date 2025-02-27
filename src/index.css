@@ -203,13 +203,6 @@ li{
 .pm{
   font-size:20px;
 }
-.plLearnmore{
-  float:left;
-  bottom:25px;
-  left:15px;
-  position:absolute;
-  font-size:20px;
-}
 .silver{border-color:#FFFFFF;}
 .silver > h1{color:#FFFFFF;}
 .gold{border-color:#FFBF3F;}
@@ -288,8 +281,5 @@ li{
 
     margin-top:30px;
     margin-bottom:30px;
-  }
-  .plLearnmore{
-    font-size:15px;
   }
 }

@@ -1,3 +1,5 @@
+
+
 function DiamondCard() {
 
     return (
@@ -15,8 +17,7 @@ function DiamondCard() {
                         </ul>
                     </p>
                     <div className="fcontainer">
-                        <a className="plLearnmore" onClick="diamondPopup()">Learn More</a>
-                        <button className="Arvo" onClick="diamondPopup()">
+                        <button className="Arvo">
                             <p><b className="num">$125</b><br/>
                                 <b className="pm">Per Month</b></p>
                         </button>

@@ -1,15 +1,15 @@
-import '../popup.css'
+import './form.css'
 
 import SilverCard from "./plcards/silver.jsx"
 import GoldCard from "./plcards/gold.jsx"
 import DiamondCard from "./plcards/diamond.jsx"
-import popup from "../popup.jsx"
-import React from "react";
 
 function Getintouchcont() {
+
+
+
     return(
         <>
-            <popup id={'popup'} />
 
 
             <div className="pHeader Arvo">
@@ -41,11 +41,36 @@ function Getintouchcont() {
             </div>
 
             <div className='fcontainer'>
-                <SilverCard/>
-                <GoldCard/>
-                <DiamondCard/>
+                <SilverCard />
+                <GoldCard />
+                <DiamondCard />
             </div>
             <br/><br/><br/><br/><br/><br/><br/><br/>
+
+            <div className="pHeader Arvo">
+                <p><b>Get a Website</b></p>
+                <hr/>
+                <br/>
+                <hr style={{width: '115px'}}/>
+            </div>
+            <div className="pText center">
+
+                <form style={{width: '100%'}}>
+                    <div className='fcontainer'>
+                        <input type='text' placeholder='Buisness Name' />
+                        <input type='email' placeholder='Email' />
+                    </div>
+                    <div className='fcontainer'>
+                    <select>
+                        <option>plan</option>
+                        <option value='silver'>silver</option>
+                        <option value='gold'>gold</option>
+                        <option value='diamond'>diamond</option>
+                    </select>
+                        <input type='text' placeholder='Possible Domain Name (example.com)' />
+                    </div>
+                </form>
+            </div>
         </>
     )
 }

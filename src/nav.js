@@ -8,4 +8,3 @@ export function getintouch(){
 export function portfolio(){
     window.location.replace("/#/portfolio")
 }
-

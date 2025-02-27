@@ -1,3 +1,5 @@
+
+
 function SilverCard() {
 
     return (
@@ -14,8 +16,7 @@ function SilverCard() {
                         </ul>
                     </p>
                     <div className="fcontainer">
-                        <a className="plLearnmore" onClick="silverPopup()">Learn More</a>
-                        <button className="Arvo" onClick="silverPopup()">
+                        <button className="Arvo">
                             <p><b className="num">$30</b><br/>
                                 <b className="pm">Per Month</b></p>
                         </button>

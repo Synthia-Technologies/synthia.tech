@@ -1,3 +1,5 @@
+
+
 function GoldCard() {
 
     return (
@@ -17,8 +19,7 @@ function GoldCard() {
                         </ul>
                     </p>
                     <div className="fcontainer">
-                        <a className="plLearnmore" onClick="goldPopup()">Learn More</a>
-                        <button className="Arvo" onClick="goldPopup()">
+                        <button className="Arvo">
                             <p><b className="num">$75</b><br/>
                                 <b className="pm">Per Month</b></p>
                         </button>
