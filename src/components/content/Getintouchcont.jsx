@@ -66,14 +66,19 @@ function Getintouchcont() {
                     </div>
                     <div className='fcontainer'>
                     <select className='Roboto' onChange={handlePlanChange}>
-                        <option id={'planholder'} >plan</option>
+                        <option id={'planholder'} >Plan</option>
                         <option value='silver'>silver</option>
                         <option value='gold'>gold</option>
                         <option value='diamond'>diamond</option>
                     </select>
                         <input type='text' placeholder='Possible Domain Name (example.com)' />
                     </div>
-                    <input type='submit' value='Submit' />
+                    <div className='fcontainer'>
+                        <textarea className='Roboto' placeholder='Rough idea of the website' />
+                    </div>
+                    <div className='fcontainer'>
+                        <input type='submit' value='Submit' />
+                    </div>
                 </form>
             </div>
         </>

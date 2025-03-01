@@ -51,6 +51,12 @@ li{
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
+textarea{
+  resize: none;
+}
+input[type=submit]:hover, select:hover{
+  cursor:pointer;
+}
 
 /*ID*/
 
