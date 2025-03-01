@@ -6,7 +6,11 @@ import DiamondCard from "./plcards/diamond.jsx"
 
 function Getintouchcont() {
 
-
+    const handlePlanChange = (e) => {
+        if (e.target.value !== 'plan') {
+            document.getElementById('planholder').style.display = 'none';
+        }
+    };
 
     return(
         <>
@@ -61,14 +65,15 @@ function Getintouchcont() {
                         <input type='email' placeholder='Email' />
                     </div>
                     <div className='fcontainer'>
-                    <select>
-                        <option>plan</option>
+                    <select className='Roboto' onChange={handlePlanChange}>
+                        <option id={'planholder'} >plan</option>
                         <option value='silver'>silver</option>
                         <option value='gold'>gold</option>
                         <option value='diamond'>diamond</option>
                     </select>
                         <input type='text' placeholder='Possible Domain Name (example.com)' />
                     </div>
+                    <input type='submit' value='Submit' />
                 </form>
             </div>
         </>
