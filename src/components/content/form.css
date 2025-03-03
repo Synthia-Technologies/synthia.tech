@@ -29,3 +29,14 @@ input[type=submit]{
 select {
     color: #757575;
 }
+
+input[type=submit]{
+    background-color: #8A64D6;
+    color: white;
+    border: 1px solid #3c2b5e;
+    box-shadow: 0 5px 0 #3c2b5e;
+}
+input[type=submit]:active{
+    transform: translateY(5px);
+    box-shadow: none;
+}
