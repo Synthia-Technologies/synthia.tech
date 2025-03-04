@@ -1,12 +1,29 @@
-
+import LangCard from "../langCards.jsx"
 
 function Portfoliocont() {
-    return(
+    return (
         <>
+
             <div className="pHeader Arvo">
-                <p><b>West Denmark Woodland School:</b></p>
-                <hr/>
-                <br/>
+                <p><b>Languages and Tools</b></p>
+                <hr />
+                <br />
+                <hr style={{ width: '115px' }} />
+            </div>
+            <div className="fcontainer center LangCardcontaner">
+                <LangCard lang="javascript" />
+                <LangCard lang="html" />
+                <LangCard lang="css" />
+            </div><br />
+            <div className="fcontainer center LangCardcontaner">
+                <LangCard lang="react" />
+                <LangCard lang="git" />
+            </div>
+
+            <div className="pHeader Arvo">
+                <p><b>Past Projects</b></p>
+                <hr />
+                <br />
                 <hr style={{ width: '115px' }} />
             </div>
             <div className="pText center fcontainer">
@@ -21,16 +38,16 @@ function Portfoliocont() {
                     </p>
                 </div>
                 <div style={{ width: '100%' }}>
-                    <img alt='wdwoodlandschool.org screenshot' style={{ width: '100%' }} src="/images/Pfwoodlandschool.svg"/>
+                    <img alt='wdwoodlandschool.org screenshot' style={{ width: '100%' }} src="/images/Pfwoodlandschool.svg" />
                 </div>
             </div>
-            <br/>
+            <br />
             <div>
                 <div className="pHeader Arvo">
                     <p><b>More Portfolio Items Coming Soon</b></p>
-                    <hr/>
-                    <br/>
-                    <hr style={{ width: '115px' }}/>
+                    <hr />
+                    <br />
+                    <hr style={{ width: '115px' }} />
                 </div>
             </div>
         </>

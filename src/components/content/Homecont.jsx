@@ -13,9 +13,9 @@ function Homecont() {
             <div className="pText center">
                 <p className="Roboto">
                     <b>Synthia</b> is a web development and design firm that brings well-designed and functional
-                    websites to you for some of the best prices around.
-                    <b>Synthia</b> specializes in working with businesses to manage all of their digital needs without
-                    them having to do a single thing other than focus on the parts of your business that you enjoy.
+                    websites to you for some of the best prices around. <b>Synthia</b> specializes in working with
+                    businesses to manage all of their digital needs without them having to do a single thing other
+                    than focus on the parts of your business that you enjoy.
                 </p>
             </div>
             <br/><br/>
