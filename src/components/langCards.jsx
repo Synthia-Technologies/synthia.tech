@@ -24,7 +24,7 @@ function LangCard({ lang = 'javascript' }) {
         git: {
             src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
             name: "Git",
-            description: "Collaboration and Version control behind my websites"
+            description: "Collaboration and Version control"
         }
     };
 

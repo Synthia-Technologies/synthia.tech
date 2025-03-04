@@ -10,12 +10,12 @@ function Portfoliocont() {
                 <br />
                 <hr style={{ width: '115px' }} />
             </div>
-            <div className="fcontainer center" style={{ width: '70%' }}>
+            <div className="fcontainer center LangCardcontaner">
                 <LangCard lang="javascript" />
                 <LangCard lang="html" />
                 <LangCard lang="css" />
             </div><br />
-            <div className="fcontainer center" style={{ width: '70%' }}>
+            <div className="fcontainer center LangCardcontaner">
                 <LangCard lang="react" />
                 <LangCard lang="git" />
             </div>
