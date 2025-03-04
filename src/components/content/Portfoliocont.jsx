@@ -1,4 +1,4 @@
-
+import LangCard from "../langCards.jsx"
 
 function Portfoliocont() {
     return (
@@ -10,8 +10,14 @@ function Portfoliocont() {
                 <br />
                 <hr style={{ width: '115px' }} />
             </div>
-            <div className="pText center">
-
+            <div className="fcontainer center" style={{ width: '70%' }}>
+                <LangCard lang="javascript" />
+                <LangCard lang="html" />
+                <LangCard lang="css" />
+            </div><br />
+            <div className="fcontainer center" style={{ width: '70%' }}>
+                <LangCard lang="react" />
+                <LangCard lang="git" />
             </div>
 
             <div className="pHeader Arvo">
