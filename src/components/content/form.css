@@ -13,7 +13,7 @@ input[type=email], input[type=text], input[type=text], textarea, input[type=subm
 }
 select{
     height:50px; !important
-    background-color: white !important;
+    width: 1000px; !important
 }
 input[type=email]:focus, input[type=text]:focus, input[type=text]:focus, textarea, select:focus {
     outline:none;
@@ -40,4 +40,22 @@ input[type=submit]{
 input[type=submit]:active{
     transform: translateY(5px);
     box-shadow: none;
+}
+input[type=text], textarea, input[type=email]{
+    width:97%; !important
+}
+
+form .fcontainer{
+    display: flex;
+}
+
+@media screen and (min-width: 700px) {
+    form .fcontainer{
+        display: flex;
+    }
+}
+@media screen and (max-width: 700px) {
+    form .fcontainer{
+        display: initial;
+    }
 }

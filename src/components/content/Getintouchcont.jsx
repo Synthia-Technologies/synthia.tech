@@ -38,6 +38,7 @@ function Getintouchcont() {
             <div className="pText center">
 
                 <form style={{width: '100%'}}>
+
                     <div className='fcontainer'>
                         <input type='text' placeholder='Buisness Name' />
                         <input type='email' placeholder='Email' />
@@ -57,6 +58,7 @@ function Getintouchcont() {
                     <div className='fcontainer'>
                         <input type='submit' value='Submit' />
                     </div>
+
                 </form>
             </div>
 
