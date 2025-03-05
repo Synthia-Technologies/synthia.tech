@@ -6,8 +6,6 @@ import Portfoliocont from "../components/content/Portfoliocont.jsx";
 function Portfolio() {
 
     useEffect(() => {
-        document.getElementById('headingtext').innerHTML = "About the quality of my work."
-
         document.getElementById('homebutton').style.textDecoration = "none";
         document.getElementById('getintouchbutton').style.textDecoration = "none";
         document.getElementById('portfoliobutton').style.textDecoration = "underline";
@@ -16,7 +14,7 @@ function Portfolio() {
     return (
         <>
             <header>
-                <Navbar style={{ width: '100%' }} />
+                <Navbar style={{ width: '100%' }} page='portfolio' />
             </header>
             <section>
                 <Portfoliocont />

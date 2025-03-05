@@ -6,8 +6,6 @@ import Getintouchcont from "../components/content/Getintouchcont.jsx";
 function Getintouch() {
 
     useEffect(() => {
-        document.getElementById('headingtext').innerHTML = "Find a Plan perfectly tailored to your needs."
-
         document.getElementById('homebutton').style.textDecoration = "none";
         document.getElementById('getintouchbutton').style.textDecoration = "underline";
         document.getElementById('portfoliobutton').style.textDecoration = "none";
@@ -16,7 +14,7 @@ function Getintouch() {
     return(
         <>
             <header>
-                <Navbar style={{width: '100%'}}/>
+                <Navbar style={{width: '100%'}} page='getintouch' />
             </header>
 
             <section>

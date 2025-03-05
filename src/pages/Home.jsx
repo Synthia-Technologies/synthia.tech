@@ -7,8 +7,6 @@ import Foot from "../components/footer.jsx";
 function Home() {
 
     useEffect(() => {
-        document.getElementById('headingtext').innerHTML = "Expert websites, so you can focus on growth."
-
         document.getElementById('homebutton').style.textDecoration = "underline";
         document.getElementById('getintouchbutton').style.textDecoration = "none";
         document.getElementById('portfoliobutton').style.textDecoration = "none";
@@ -17,7 +15,7 @@ function Home() {
     return (
         <>
             <header>
-                <Navbar style={{width: '100%'}}/>
+                <Navbar style={{width: '100%'}} page='home' />
             </header>
 
             <section>
