@@ -64,6 +64,7 @@ input[type=submit]:hover, select:hover{
   float: right;
   color: white;
   margin-top:50px;
+  text-decoration-color: white;
 }
 #navbar a{
   margin:40px;

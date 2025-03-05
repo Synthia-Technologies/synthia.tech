@@ -43,7 +43,7 @@ function Getintouchcont() {
                         <input type='email' placeholder='Email' />
                     </div>
                     <div className='fcontainer'>
-                    <select className='Roboto' onChange={handlePlanChange}>
+                    <select className='Roboto' style={{backgroundColor:'white'}} onChange={handlePlanChange}>
                         <option id={'planholder'} >Plan</option>
                         <option value='silver'>silver</option>
                         <option value='gold'>gold</option>
