@@ -1,4 +1,4 @@
-
+//I must do something today
 function LangCard({ lang = 'javascript' }) {
     const icons = {
         javascript: {
@@ -32,12 +32,12 @@ function LangCard({ lang = 'javascript' }) {
 
     return (
         <>
-        <div className='langCards center'>
-            <img alt={`${name} Icon`} src={src} />
-            <h1 className='Arvo' style={{ paddingLeft: '10px' }}>{name}
-                <p className='Roboto' style={{fontWeight: '400'}}>{description}</p>
-            </h1>
-        </div>
+            <div className='langCards center'>
+                <img alt={`${name} Icon`} src={src} />
+                <h1 className='Arvo' style={{ paddingLeft: '10px' }}>{name}
+                    <p className='Roboto' style={{ fontWeight: '400' }}>{description}</p>
+                </h1>
+            </div>
         </>
     );
 }
