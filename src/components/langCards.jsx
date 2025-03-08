@@ -1,4 +1,3 @@
-//I must do something today
 function LangCard({ lang = 'javascript' }) {
     const icons = {
         javascript: {
