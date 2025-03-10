@@ -1,6 +1,8 @@
 import { home, getintouch, portfolio } from '../nav.js'
+import React, { useState } from 'react';
 
-function Navbar({ page = 'home' }) {
+function Navbar({ page = 'home', onNavigate }) {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const pageContent = {
         home: {
@@ -14,41 +16,68 @@ function Navbar({ page = 'home' }) {
         }
     };
 
-    const navtoggle = () => {
-        if (buttonv === 0) {
-            document.getElementById('dropdown-box').style.display = "block";
-
-            document.getElementById('navmobile').innerHTML = "<span style={{transform: 'rotate(135deg)', margin-top: '10px'}}></span>";
-        } else {
-            document.getElementById('dropdown-box').style.display = "none";
-
-            document.getElementById('navmobile').innerHTML = "<span></span><span></span><span></span>";
-        }
-
-        // Toggle between 0 and 1
-        buttonv = 1 - buttonv;
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
     };
 
-    // Access the headingtext based on the current page
-    const { headingtext } = pageContent[page] || {};
+    // Get the heading text for the current page
+    const headingtext = pageContent[page]?.headingtext || '';
 
     return (
         <>
             <div>
-                <input onClick={home} alt="Synthia Technologies" type="image" src="/images/Banner.svg" id="banner" />
+                <img
+                    onClick={home}
+                    alt="Synthia Technologies"
+                    src="/images/Banner.svg"
+                    id="banner"
+                    style={{ cursor: 'pointer' }}
+                />
 
                 <nav id="navbar" className="Arvo" aria-label="Primary Navigation">
-                    <a id='homebutton' onClick={home} className="underline">Home</a>
-                    <a id='getintouchbutton' onClick={getintouch}>Get In Touch</a>
-                    <a id='portfoliobutton' onClick={portfolio}>Portfolio</a>
+                    <a
+                        id="homebutton"
+                        onClick={home}
+                        className={page === 'home' ? "underline" : ""}
+                        style={{ cursor: 'pointer' }}
+                    >
+                        Home
+                    </a>
+                    <a
+                        id="getintouchbutton"
+                        onClick={getintouch}
+                        className={page === 'getintouch' ? "underline" : ""}
+                        style={{ cursor: 'pointer' }}
+                    >
+                        Get In Touch
+                    </a>
+                    <a
+                        id="portfoliobutton"
+                        onClick={portfolio}
+                        className={page === 'portfolio' ? "underline" : ""}
+                        style={{ cursor: 'pointer' }}
+                    >
+                        Portfolio
+                    </a>
                 </nav>
 
-                <div id='navmobile' onclick={navtoggle}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div id="navmobile" onClick={toggleMenu}>
+                    {isMenuOpen ? (
+                        <span style={{ transform: 'rotate(135deg)', marginTop: '10px' }}></span>
+                    ) : (
+                        <>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </>
+                    )}
                 </div>
 
+                {isMenuOpen && (
+                    <div id="dropdown-box">
+                        {/* Mobile menu content goes here */}
+                    </div>
+                )}
             </div>
             <div className="fcontainer">
                 <p className="Arvo" id="headingtext">{headingtext}</p>

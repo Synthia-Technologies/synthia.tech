@@ -127,6 +127,8 @@ select:hover {
   width: 100%;
   background-color: white;
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  transform-origin: center;
 }
 
 /*Classes*/
@@ -206,6 +208,21 @@ select:hover {
   float: right;
   margin: 10px;
 }
+
+/*Mobile Nav Menu styling*/
+
+#navmobile.active span:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+#navmobile.active span:nth-child(2) {
+  opacity: 0;
+}
+
+#navmobile.active span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
 
 /*getintouch.html styling*/
 
@@ -347,6 +364,8 @@ select:hover {
 
   #navmobile {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   #banner {
