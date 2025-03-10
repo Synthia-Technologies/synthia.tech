@@ -37,23 +37,23 @@ function Getintouchcont() {
             </div>
             <div className="pText center">
 
-                <form style={{width: '100%'}}>
+                <form style={{width: '100%'}} action="https://formsubmit.co/dba2f2ca6a4f7e46ef76b2afe1917bf3" method="POST">
 
                     <div className='fcontainer'>
-                        <input type='text' placeholder='Buisness Name' />
-                        <input type='email' placeholder='Email' />
+                        <input type='text' name="buisness name" placeholder='Buisness Name' />
+                        <input type='email' name="email" placeholder='Email' />
                     </div>
                     <div className='fcontainer'>
-                    <select className='Roboto' style={{backgroundColor:'white'}} onChange={handlePlanChange}>
+                    <select className='Roboto' name="plan" style={{backgroundColor:'white'}} onChange={handlePlanChange}>
                         <option id={'planholder'} >Plan</option>
                         <option value='silver'>silver</option>
                         <option value='gold'>gold</option>
                         <option value='diamond'>diamond</option>
                     </select>
-                        <input type='text' placeholder='Possible Domain Name (example.com)' />
+                        <input type='text' name="domain" placeholder='Possible Domain Name (example.com)' />
                     </div>
                     <div className='fcontainer'>
-                        <textarea className='Roboto' placeholder='Rough idea of the website' />
+                        <textarea className='Roboto' name="message" placeholder='Rough idea of the website' />
                     </div>
                     <div className='fcontainer'>
                         <input type='submit' value='Submit' />
