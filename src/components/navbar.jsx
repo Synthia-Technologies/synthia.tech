@@ -31,7 +31,6 @@ function Navbar({ page = 'home', onNavigate }) {
                     alt="Synthia Technologies"
                     src="/images/Banner.svg"
                     id="banner"
-                    style={{ cursor: 'pointer' }}
                 />
 
                 <nav id="navbar" className="Arvo" aria-label="Primary Navigation">
@@ -39,7 +38,6 @@ function Navbar({ page = 'home', onNavigate }) {
                         id="homebutton"
                         onClick={home}
                         className={page === 'home' ? "underline" : ""}
-                        style={{ cursor: 'pointer' }}
                     >
                         Home
                     </a>
@@ -47,7 +45,6 @@ function Navbar({ page = 'home', onNavigate }) {
                         id="getintouchbutton"
                         onClick={getintouch}
                         className={page === 'getintouch' ? "underline" : ""}
-                        style={{ cursor: 'pointer' }}
                     >
                         Get In Touch
                     </a>
@@ -55,7 +52,6 @@ function Navbar({ page = 'home', onNavigate }) {
                         id="portfoliobutton"
                         onClick={portfolio}
                         className={page === 'portfolio' ? "underline" : ""}
-                        style={{ cursor: 'pointer' }}
                     >
                         Portfolio
                     </a>
