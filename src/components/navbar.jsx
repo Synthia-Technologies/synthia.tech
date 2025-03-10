@@ -59,7 +59,7 @@ function Navbar({ page = 'home', onNavigate }) {
 
                 <div id="navmobile" onClick={toggleMenu}>
                     {isMenuOpen ? (
-                        <span style={{ transform: 'rotate(135deg)', marginTop: '10px' }}></span>
+                        <span style={{ transform: 'rotate(135deg)', marginTop: '10px'}}></span>
                     ) : (
                         <>
                             <span></span>
@@ -71,7 +71,9 @@ function Navbar({ page = 'home', onNavigate }) {
 
                 {isMenuOpen && (
                     <div id="dropdown-box">
-                        {/* Mobile menu content goes here */}
+                        <a onClick={home}>Home</a>
+                        <a onClick={getintouch}>Get in Touch</a>
+                        <a onClick={portfolio}>Portfolio</a>
                     </div>
                 )}
             </div>

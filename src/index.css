@@ -131,6 +131,18 @@ select:hover {
   transform-origin: center;
 }
 
+#dropdown-box {
+  position: absolute;
+  background-color: white;
+  height: 500px;
+  width:auto;
+  margin-top: 200px;
+}
+#dropdown-box a{
+  height:100%;
+  font-size: 22px;
+}
+
 /*Classes*/
 
 .center {
@@ -212,6 +224,7 @@ select:hover {
 /*Mobile Nav Menu styling*/
 
 #navmobile.active span:nth-child(1) {
+  width: 3px;
   transform: translateY(10px) rotate(45deg);
 }
 
