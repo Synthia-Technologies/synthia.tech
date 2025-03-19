@@ -15,7 +15,7 @@ function Home() {
     return (
         <>
             <header>
-                <Navbar style={{width: '100%'}} page='home' />
+                <Navbar style={{ width: '100%' }} page='home' />
             </header>
 
             <section>

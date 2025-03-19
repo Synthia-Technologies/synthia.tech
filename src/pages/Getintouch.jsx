@@ -11,14 +11,14 @@ function Getintouch() {
         document.getElementById('portfoliobutton').style.textDecoration = "none";
     })
 
-    return(
+    return (
         <>
             <header>
-                <Navbar style={{width: '100%'}} page='getintouch' />
+                <Navbar style={{ width: '100%' }} page='getintouch' />
             </header>
 
             <section>
-                <Getintouchcont/>
+                <Getintouchcont />
             </section>
 
             <Foot />

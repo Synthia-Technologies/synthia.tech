@@ -135,11 +135,12 @@ select:hover {
   position: absolute;
   background-color: white;
   height: 500px;
-  width:auto;
+  width: auto;
   margin-top: 200px;
 }
-#dropdown-box a{
-  height:100%;
+
+#dropdown-box a {
+  height: 100%;
   font-size: 22px;
 }
 

@@ -12,14 +12,14 @@ function Getintouchcont() {
         }
     };
 
-    return(
+    return (
         <>
 
             <div className="pHeader Arvo">
                 <p><b>Plans</b></p>
-                <hr/>
-                <br/>
-                <hr style={{width: '115px'}}/>
+                <hr />
+                <br />
+                <hr style={{ width: '115px' }} />
             </div>
 
             <div className='fcontainer'>
@@ -27,29 +27,29 @@ function Getintouchcont() {
                 <GoldCard />
                 <DiamondCard />
             </div>
-            <br/><br/><br/><br/><br/><br/><br/><br/>
+            <br /><br /><br /><br /><br /><br /><br /><br />
 
             <div className="pHeader Arvo">
                 <p><b>Get a Website</b></p>
-                <hr/>
-                <br/>
-                <hr style={{width: '115px'}}/>
+                <hr />
+                <br />
+                <hr style={{ width: '115px' }} />
             </div>
             <div className="pText center">
 
-                <form style={{width: '100%'}} action="https://formsubmit.co/dba2f2ca6a4f7e46ef76b2afe1917bf3" method="POST">
+                <form style={{ width: '100%' }} action="https://formsubmit.co/dba2f2ca6a4f7e46ef76b2afe1917bf3" method="POST">
 
                     <div className='fcontainer'>
                         <input type='text' name="buisness name" placeholder='Buisness Name' />
                         <input type='email' name="email" placeholder='Email' />
                     </div>
                     <div className='fcontainer'>
-                    <select className='Roboto' name="plan" style={{backgroundColor:'white'}} onChange={handlePlanChange}>
-                        <option id={'planholder'} >Plan</option>
-                        <option value='silver'>silver</option>
-                        <option value='gold'>gold</option>
-                        <option value='diamond'>diamond</option>
-                    </select>
+                        <select className='Roboto' name="plan" style={{ backgroundColor: 'white' }} onChange={handlePlanChange}>
+                            <option id={'planholder'} >Plan</option>
+                            <option value='silver'>silver</option>
+                            <option value='gold'>gold</option>
+                            <option value='diamond'>diamond</option>
+                        </select>
                         <input type='text' name="domain" placeholder='Possible Domain Name (example.com)' />
                     </div>
                     <div className='fcontainer'>
@@ -64,9 +64,9 @@ function Getintouchcont() {
 
             <div className="pHeader Arvo">
                 <p><b>How Synthia websites work</b></p>
-                <hr/>
-                <br/>
-                <hr style={{width: '115px'}}/>
+                <hr />
+                <br />
+                <hr style={{ width: '115px' }} />
             </div>
             <div className="pText center">
                 <p className="Roboto">
@@ -78,7 +78,7 @@ function Getintouchcont() {
                     get to programming. Depending on how complex the website is I can usually get it done within 2 weeks
                     and I will send you regular updates talking about my progress. When the website is finished you will
                     pay the fee listed on the plan you chose and the website will go up on the domain that you
-                    select.<br/><br/>
+                    select.<br /><br />
                     If you have any additional questions please contact me at contact@synthia.tech
                 </p>
             </div>

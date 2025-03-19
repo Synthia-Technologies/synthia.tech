@@ -6,9 +6,9 @@ function Homecont() {
         <>
             <div className="pHeader Arvo">
                 <p><b>What is Synthia?</b></p>
-                <hr/>
-                <br/>
-                <hr style={{ width: '115px' }}/>
+                <hr />
+                <br />
+                <hr style={{ width: '115px' }} />
             </div>
             <div className="pText center">
                 <p className="Roboto">
@@ -18,12 +18,12 @@ function Homecont() {
                     than focus on the parts of your business that you enjoy.
                 </p>
             </div>
-            <br/><br/>
+            <br /><br />
             <div className="pHeader Arvo">
                 <p><b>Who am I?</b></p>
-                <hr/>
-                <br/>
-                <hr style={{ width: '115px' }}/>
+                <hr />
+                <br />
+                <hr style={{ width: '115px' }} />
             </div>
             <div className="pText center fcontainer">
                 <p className="Roboto">
@@ -33,7 +33,7 @@ function Homecont() {
                     fascinates me by developing breathtaking websites for each client I work with, ensuring each and
                     every one of my clients gets the best experience working with me that I can offer them.
                 </p>
-                <img alt="Developer Headshot" className="headshot" src="/images/Eheadshot.jpg"/>
+                <img alt="Developer Headshot" className="headshot" src="/images/Eheadshot.jpg" />
             </div>
         </>
     )

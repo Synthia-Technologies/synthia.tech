@@ -59,7 +59,7 @@ function Navbar({ page = 'home', onNavigate }) {
 
                 <div id="navmobile" onClick={toggleMenu}>
                     {isMenuOpen ? (
-                        <span style={{ transform: 'rotate(135deg)', marginTop: '10px'}}></span>
+                        <span style={{ transform: 'rotate(135deg)', marginTop: '10px' }}></span>
                     ) : (
                         <>
                             <span></span>
