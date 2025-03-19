@@ -1,4 +1,3 @@
-// yo I need to commit
 export function home() {
     window.location.replace("")
     document.getElementById('pageTitle').innerText = 'Synthia Technologies'
