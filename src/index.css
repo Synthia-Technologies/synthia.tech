@@ -346,7 +346,7 @@ select:hover {
 
 @media screen and (max-width: 1600px) {
   header {
-    height: 400px;
+    height: 450px;
   }
 
   .plCard {
@@ -358,7 +358,7 @@ select:hover {
   }
 
   #shapes img {
-    width: 360px;
+    width: 400px;
   }
 
   .LangCardcontaner {
