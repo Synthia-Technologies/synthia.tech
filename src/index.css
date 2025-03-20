@@ -345,8 +345,20 @@ select:hover {
 /*Media Queries*/
 
 @media screen and (max-width: 1600px) {
+  header {
+    height: 400px;
+  }
+
   .plCard {
     width: 80%
+  }
+
+  #shapes {
+    width: 70%;
+  }
+
+  #shapes img {
+    width: 360px;
   }
 
   .LangCardcontaner {
@@ -426,6 +438,10 @@ select:hover {
 @media screen and (max-width: 900px) {
   header {
     height: 270px;
+  }
+
+  .pHeader {
+    margin-left: 20px;
   }
 
   #headingtext {
