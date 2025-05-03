@@ -20,7 +20,7 @@ function GoldCard() {
                     </p>
                     <div className="fcontainer">
                         <button className="Arvo">
-                            <p><b className="num">$75</b><br/>
+                            <p><b className="num">$80</b><br/>
                                 <b className="pm">Per Month</b></p>
                         </button>
                     </div>

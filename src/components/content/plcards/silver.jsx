@@ -17,7 +17,7 @@ function SilverCard() {
                     </p>
                     <div className="fcontainer">
                         <button className="Arvo">
-                            <p><b className="num">$30</b><br/>
+                            <p><b className="num">$40</b><br/>
                                 <b className="pm">Per Month</b></p>
                         </button>
                     </div>
