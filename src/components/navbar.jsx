@@ -18,6 +18,8 @@ function Navbar({ page = 'home', onNavigate }) {
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
+
+        document.getElementById("dropdown-box").style.display = "fixed"
     };
 
     // Get the heading text for the current page

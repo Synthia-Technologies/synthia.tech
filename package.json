@@ -26,7 +26,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
-    "vite": "^6.1.0"
+    "vite": "^6.3.5"
   },
   "description": "This is a repository to test what synthia.tech would look like as a react app. If this goes well I can possibly make the entire app in react.",
   "main": "eslint.config.js",
