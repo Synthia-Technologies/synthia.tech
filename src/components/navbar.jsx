@@ -18,8 +18,6 @@ function Navbar({ page = 'home', onNavigate }) {
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
-
-        document.getElementById("dropdown-box").style.display = "fixed"
     };
 
     // Get the heading text for the current page
@@ -72,9 +70,9 @@ function Navbar({ page = 'home', onNavigate }) {
                 </div>
 
                 {isMenuOpen && (
-                    <div id="dropdown-box">
-                        <a onClick={home}>Home</a>
-                        <a onClick={getintouch}>Get in Touch</a>
+                    <div className="center" id="dropdown-box" >
+                        <a onClick={home}>Home</a><br />
+                        <a onClick={getintouch}>Get in Touch</a><br />
                         <a onClick={portfolio}>Portfolio</a>
                     </div>
                 )}
