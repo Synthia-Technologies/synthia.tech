@@ -1,4 +1,4 @@
-
+import './discount.css';
 
 function SilverCard() {
 
