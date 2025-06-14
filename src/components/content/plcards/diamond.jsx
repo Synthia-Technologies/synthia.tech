@@ -1,4 +1,4 @@
-
+import './discount.css';
 
 function DiamondCard() {
 
@@ -18,7 +18,9 @@ function DiamondCard() {
                     </p>
                     <div className="fcontainer">
                         <button className="Arvo">
-                            <p><b className="num">$120</b><br/>
+                            <p>
+                                <p className="discountNum"><b>120$</b></p>
+                                <b className="num">$80</b><br/>
                                 <b className="pm">Per Month</b></p>
                         </button>
                     </div>

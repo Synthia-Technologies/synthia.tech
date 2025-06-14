@@ -1,0 +1,13 @@
+.diamond .num{
+    color: #43AAFF;
+}
+
+.discountNum{
+    text-decoration: line-through;
+    text-decoration-color: #43AAFF;
+    text-decoration-thickness: 3px;
+
+    font-size:20px;
+    position: absolute;
+    right:1em;
+}
