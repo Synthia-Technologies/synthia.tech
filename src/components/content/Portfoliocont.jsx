@@ -29,7 +29,7 @@ function Portfoliocont() {
             <div className="pText center fcontainer">
                 <div style={{ width: '100%' }}>
                     <p className="Roboto">
-                        <a href="https://www.wdwoodlandschool.org">The West Denmark Woodland School</a> is a child care
+                        <a href="https://www.wdwoodlandschool.org"><b>The West Denmark Woodland School</b></a> is a child care
                         facility located in Luck, WI.
                         I had the pleasure of working with them over the summer of 2024. To this day I maintain the
                         site,
@@ -40,16 +40,20 @@ function Portfoliocont() {
                 <div style={{ width: '100%' }}>
                     <img alt='wdwoodlandschool.org screenshot' style={{ width: '100%' }} src="/images/Pfwoodlandschool.svg" />
                 </div>
-            </div>
-            <br />
-            <div>
-                <div className="pHeader Arvo">
-                    <p><b>More Portfolio Items Coming Soon</b></p>
-                    <hr />
-                    <br />
-                    <hr style={{ width: '115px' }} />
+            </div><br/><br/>
+            <div className="pText center fcontainer">
+                <div style={{ width: '100%' }}>
+                    <p className="Roboto">
+                        <a href="https://luuikau.synthia.tech"><b>Luuikau</b></a> is an artist based in
+                        Saint Paul, MN. I made his website in june of 2025. The site was made in react and includes several
+                        features such as a commission form and links to his social media. 
+                    </p>
+                </div>
+                <div style={{ width: '100%' }}>
+                    <img alt='wdwoodlandschool.org screenshot' style={{ width: '100%' }} src="/images/Pfwoodlandschool.svg" />
                 </div>
             </div>
+            <br />
         </>
     )
 }
